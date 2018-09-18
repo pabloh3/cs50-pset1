@@ -8,7 +8,7 @@ f = 0;
 while (f == 0)
     {
     printf("How much change do you need?");
-    c = GetFloat();
+    c = get_float();
      if (c<0)
             f = 0;
             else
